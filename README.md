@@ -74,12 +74,11 @@ All four models achieved high classification accuracy on the held-out test set (
 
 | Model | Accuracy (Standard) | Accuracy (+SMOTE) | ROC-AUC |
 |-------|--------------------|--------------------|---------|
-| Random Forest | 96.89% | **98.14%** ✓ | 0.9988 |
+| Random Forest | 96.89% | **98.14%**  | 0.9988 |
 | SVM (RBF) | 98.14% | 98.14% | **0.9999** |
 | MLP Neural Net | **98.76%** | 98.14% | 0.9993 |
 | XGBoost | 98.14% | 96.27% | 0.9979 |
 
-**Best model:** Random Forest + SMOTE → **98.14% accuracy / 0.9988 ROC-AUC**
 
 ### Key observations:
 - **Random Forest** showed the greatest benefit from SMOTE (+1.24%), confirming that ensemble tree methods respond well to balanced training distributions
